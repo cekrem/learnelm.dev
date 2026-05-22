@@ -60,7 +60,6 @@ Frameworks built on (or around) Elm. Reach for one of these when you've outgrown
 Elm is conservative by design. These projects fork the compiler when they want to move faster or in a different direction.
 
 - **[Gren](https://gren-lang.org)** — A friendlier-named, more actively evolving Elm-flavoured language. Strips a few sharp edges, adds some features, runs on Node as well as the browser.
-- **[Guida](https://guida-lang.org)** — A community fork that keeps the Elm language as-is but moves the compiler forward — bug fixes, performance work, and modern tooling.
 - **[Lamdera](https://lamdera.com)** — Technically also a fork (it extends the compiler with wire codecs and migration checks), but it's the only one that ships a hosted runtime to go with it.
 
 ## Where to ask
