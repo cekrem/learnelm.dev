@@ -35,7 +35,7 @@ Three stages, roughly. Each link gets a line on what it's for, so you can skip w
 
 - **[Elm in Action](https://www.manning.com/books/elm-in-action)** _(paid)_ — Richard Feldman's Manning book. Builds a real app end to end. The most thorough treatment of Elm at scale I know of.
 - **[elm-test](https://github.com/elm-explorations/test)** — Testing in Elm. Pretty painless once the architecture has clicked. (You'll write fewer tests than you're used to. The compiler covers a lot.)
-- **[elm-review](https://elm-review.com)** — Custom static analysis. Don't bother on day one; reach for it once your codebase is big enough that conventions start drifting.
+- **[elm-review](https://elm-review.com)** — Custom static analysis, and one of the best things in the Elm ecosystem. Pull it in earlier than you'd think — small codebases benefit too, and writing your own rules turns out to be genuinely fun. (Jeroen made this, and it shows.)
 - **[elm-ui](https://github.com/mdgriffith/elm-ui)** — Layout as Elm types instead of CSS. Very opinionated. Try it once you're comfortable in the language.
 
 ## Essays worth your time
