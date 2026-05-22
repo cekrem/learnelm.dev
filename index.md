@@ -67,10 +67,10 @@ Small and genuinely patient community. Beginner questions are fine.
 
 - **[Elm Discourse](https://discourse.elm-lang.org)** — the main forum
 - **[Elm Slack](https://elm-lang.org/community/slack)** — real-time help
+- **[Incremental Elm Discord](https://incrementalelm.com/chat/)** — More of a contributor and ecosystem hangout than a beginner channel. Where most fork and spinoff conversations end up.
+- **[Elm Weekly](https://www.elmweekly.nl)** — Wolfgang's weekly newsletter. Easiest way to keep up without living in Slack.
 - **[r/elm](https://www.reddit.com/r/elm/)** — news & show-and-tell
 
 Want the whole pile? This page is short on purpose. For the full catalogue, head over to [awesome-elm](https://github.com/sporto/awesome-elm).
 
----
-
-By [Christian Ekrem](https://cekrem.github.io) · [Suggest a resource](mailto:christianekrem+learnelm@gmail.com) · Updated May 2026
+Maintained by [Christian Ekrem @ cekrem.github.io](https://cekrem.github.io), who writes about Elm and a bunch of other things over there.
