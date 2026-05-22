@@ -12,18 +12,18 @@ There's a lot of good Elm material out there. Sadly, no obvious order to read it
 Where to start depends on what you already know. Pick the line that sounds like you.
 
 - **"I know code, but not FP"** — Start with the [official guide](https://guide.elm-lang.org).
-- **"I'm a React developer"** — Read [An Elm Primer for React Developers](https://leanpub.com/elm-for-react-devs/). Hands down the most efficient route for React devs: it takes the stuff you already know (components, state, effects) and shows you the Elm version of each — and sneaks the functional programming in for free along the way.
+- **"I'm a React developer"** — Read [An Elm Primer for React Developers](https://leanpub.com/elm-for-react-devs/) _(mine, so grain of salt)_. The most efficient route I know of for React devs: takes the stuff you already know (components, state, effects, the browser domain itself) and shows you the Elm version of each, teaching real functional programming in the process.
 - **"Just show me the syntax"** — Ten-minute skim: [Learn Elm in Y Minutes](https://learnxinyminutes.com/elm/). Enough to read Elm code on Github.
 - **"I learn by doing"** — Open [Elm Koans](https://github.com/robertjlooby/elm-koans) and fix failing tests until they pass. Pairs well with the guide.
 
-## The path
+## The Path™
 
 Three stages, roughly. Each link gets a line on what it's for, so you can skip what you don't need.
 
 ### 1. Getting started
 
 - **[The Official Guide](https://guide.elm-lang.org)** — Where everyone should start. Short, well-paced, written by the guy who made the language. If you read one thing on this page, read this.
-- **[An Elm Primer for React Developers](https://leanpub.com/elm-for-react-devs/)** _(paid)_ — An excellent book, and the single most efficient way to get a React developer productive in Elm. Translates the stuff you already know instead of teaching it from zero, and quietly teaches you functional programming while it's at it.
+- **[An Elm Primer for React Developers](https://leanpub.com/elm-for-react-devs/)** _(paid)_ — Full disclosure: I wrote it. It's the most efficient route I know of for a React dev — translates components, state, and effects into their Elm equivalents instead of teaching from zero, _and_ teaches you real functional programming while it's at it.
 - **[Beginning Elm](https://elmprogramming.com)** — A slower, more hand-holding free book. Pick this one if the official guide moves too fast for you.
 
 ### 2. Core concepts
@@ -73,6 +73,8 @@ Small and genuinely patient community. Beginner questions are fine.
 - **[Elm Weekly](https://www.elmweekly.nl)** — Wolfgang's weekly newsletter. Easiest way to keep up without living in Slack.
 - **[r/elm](https://www.reddit.com/r/elm/)** — news & show-and-tell
 
-Want the whole pile? This page is short on purpose. For the full catalogue, head over to [awesome-elm](https://github.com/sporto/awesome-elm).
+Want the whole pile? This page is short on purpose. Head over to [awesome-elm](https://github.com/sporto/awesome-elm) for the full link catalogue, or [elmcraft.org](https://elmcraft.org) for community lore, curated reading, and the "why" behind a lot of the ecosystem.
+
+---
 
 Maintained by [Christian Ekrem @ cekrem.github.io](https://cekrem.github.io), who writes about Elm and a bunch of other things over there.
