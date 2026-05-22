@@ -6,10 +6,4 @@ author:
   name: Christian Ekrem
   email: christian.ekrem@gmail.com
 
-remote_theme: jekyll/minima
-minima:
-  skin: auto
-  social_links:
-    - title: learnelm.dev source on GitHub
-      icon: github
-      url: "https://github.com/cekrem/learnelm.dev"
+remote_theme: riggraz/no-style-please
