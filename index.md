@@ -29,7 +29,6 @@ Three stages, roughly. Each link gets a line on what it's for, so you can skip w
 
 - **[The Elm Architecture](https://guide.elm-lang.org/architecture/)** — The single most important pattern in Elm. Model, update, view. Every Elm app you write sits on top of it, so don't skip it.
 - **[Elm Patterns](https://sporto.github.io/elm-patterns/)** — A catalogue of common, idiomatic solutions. Browse it once you've shipped something small and started wondering "how do people normally do this?".
-- **["Parse, Don't Validate" & FP concepts](https://cekrem.github.io)** — My blog posts on the deeper stuff: why Elm's types push you toward better designs almost by accident.
 - **[Ensō Elm Playground](https://elm.enso.no)** — An interactive playground that teaches Elm by following the compiler. Hands-on, and yes, built by us at Enso (where I work).
 
 ### 3. Going deeper
@@ -41,6 +40,7 @@ Three stages, roughly. Each link gets a line on what it's for, so you can skip w
 
 ## Essays worth your time
 
+- **[Starting Small with Elm: A Widget Approach](https://cekrem.github.io/posts/starting-small-with-elm-a-widget-approach/)** — You don't have to rewrite the whole app. This is how you sneak Elm into a real codebase one widget at a time — the most practical on-ramp for anyone working in an existing frontend.
 - **[Why I Hope I Get to Write a Lot of Elm Code in 2025](https://cekrem.github.io/posts/why-i-hope-i-get-to-write-a-lot-of-elm-code-in-2025/)** — My case for picking Elm right now (no runtime errors, every state handled) written from inside a real production codebase.
 - **[Making Impossible States Impossible](https://cekrem.github.io/posts/making-impossible-states-impossible-with-functional-dependency-injection/)** — How to model a domain so the compiler rejects nonsense states outright. The kind of idea you can't unsee once you've seen it.
 - **[Functors, Applicatives, and Monads in Elm](https://cekrem.github.io/posts/functors-applicatives-monads-elm/)** — The scary FP words, demystified through Elm. If you've wondered what people mean when they say `Maybe` is a monad, this is where to find out.
