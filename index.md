@@ -1,9 +1,8 @@
 ---
-title: "learnelm.dev — A sane place to start learning Elm"
-description: "A curated, opinionated path to learning Elm — from your first line of code to production. Free resources, sequenced and explained."
+title: "learnelm.dev — A sane place to start learning _Elm_"
+description: "A curated, opinionated path to learning Elm. Whether it's your first language or your tenth, start here."
+layout: page
 ---
-
-## – A sane place to start learning _Elm_
 
 There's a lot of good Elm material out there. Sadly, no obvious order to read it in. So here's the order I'd suggest, with a quick note on why each thing made the cut. For the actual pitch for the language itself, go to the [official site](https://elm-lang.org).
 
