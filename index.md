@@ -12,7 +12,7 @@ There's a lot of good Elm material out there. Sadly, no obvious order to read it
 Where to start depends on what you already know. Pick the line that sounds like you.
 
 - **"I know code, but not FP"** — Start with the [official guide](https://guide.elm-lang.org).
-- **"I'm a React developer"** — Read [An Elm Primer for React Developers](https://leanpub.com/elm-for-react-devs/) _(mine, so grain of salt)_. The most efficient route I know of for React devs: takes the stuff you already know (components, state, effects, the browser domain itself) and shows you the Elm version of each, teaching real functional programming in the process.
+- **"I'm a React developer"** — Read [An Elm Primer for React Developers](https://leanpub.com/elm-for-react-devs/) _(disclaimer: I wrote this)_. IMHO the most efficient route for React devs: takes the stuff you already know (components, state, effects, the browser domain itself) and shows you the Elm version of each, **teaching real functional programming** in the process.
 - **"Just show me the syntax"** — Ten-minute skim: [Learn Elm in Y Minutes](https://learnxinyminutes.com/elm/). Enough to read Elm code on Github.
 - **"I learn by doing"** — Open [Elm Koans](https://github.com/robertjlooby/elm-koans) and fix failing tests until they pass. Pairs well with the guide.
 
@@ -54,13 +54,6 @@ Frameworks built on (or around) Elm. Reach for one of these when you've outgrown
 - **[Lamdera](https://lamdera.com)** — Fullstack Elm — and it's _amazing_. One codebase gives you a typed client, a typed server, and a typed wire protocol between them. Migrations are checked by the compiler, deployments are one command, and the whole thing feels like cheating. If you've ever wanted the Elm guarantees to extend across the network boundary, this is it.
 - **[elm-pages](https://elm-pages.com)** — Often pigeonholed as "the Elm static site generator," but it's really a full-stack Elm framework — think Next.js for Elm. Static generation, server-side rendering, and scripts, all with first-class data sources and Elm's guarantees end to end.
 - **[elm-land](https://elm.land)** — A batteries-included framework on top of Elm. File-based routing, layouts, auth scaffolding. The fastest way to go from `npx` to a multi-page app.
-
-## Notable forks
-
-Elm is conservative by design. These projects fork the compiler when they want to move faster or in a different direction.
-
-- **[Gren](https://gren-lang.org)** — A friendlier-named, more actively evolving Elm-flavoured language. Strips a few sharp edges, adds some features, runs on Node as well as the browser.
-- **[Lamdera](https://lamdera.com)** — Technically also a fork (it extends the compiler with wire codecs and migration checks), but it's the only one that ships a hosted runtime to go with it.
 
 ## Where to ask
 
