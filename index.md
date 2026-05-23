@@ -1,6 +1,6 @@
 ---
-title: "learnelm.dev — A sane place to start learning _Elm_"
-description: "A curated, opinionated path to learning Elm. Whether it's your first language or your tenth, start here."
+title: "learnelm.dev — A sane place to start learning Elm"
+description: "This is a curated, opinionated path to learning Elm. Whether it's your first language or your tenth, start here."
 layout: page
 ---
 
@@ -43,6 +43,7 @@ Three stages, roughly. Each link gets a line on what it's for, so you can skip w
 
 - **[Why I Hope I Get to Write a Lot of Elm Code in 2025](https://cekrem.github.io/posts/why-i-hope-i-get-to-write-a-lot-of-elm-code-in-2025/)** — My case for picking Elm right now (no runtime errors, every state handled) written from inside a real production codebase.
 - **[Making Impossible States Impossible](https://cekrem.github.io/posts/making-impossible-states-impossible-with-functional-dependency-injection/)** — How to model a domain so the compiler rejects nonsense states outright. The kind of idea you can't unsee once you've seen it.
+- **[Functors, Applicatives, and Monads in Elm](https://cekrem.github.io/posts/functors-applicatives-monads-elm/)** — The scary FP words, demystified through Elm. If you've wondered what people mean when they say `Maybe` is a monad, this is where to find out.
 - **[Elm Core Development](https://elmcraft.org/lore/elm-core-development/)** — Why Elm hasn't shipped a release in a while, and why that's a deliberate choice rather than neglect. Read this before falling down the "is Elm dead?" rabbit hole.
 - **[Single Out Elements Using Phantom Types](https://jfmengels.net/single-out-elements-using-phantom-types/)** — Phantom types sound scary until someone shows you a friendly example. Jeroen does exactly that. (Written by the author of elm-review, so he's done this once or twice.)
 
