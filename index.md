@@ -1,10 +1,19 @@
 ---
 title: "learnelm.dev — A sane place to start learning Elm"
-description: "This is a curated, opinionated path to learning Elm. Whether it's your first language or your tenth, start here."
+description: "This is a curated, opinionated path to learning Elm. Whether it's your first language or your tenth, you've come to the right place."
 layout: page
 ---
 
-There's a lot of good Elm material out there. Sadly, no obvious order to read it in. So here's the order I'd suggest, with a quick note on why each thing made the cut. For the actual pitch for the language itself, go to the [official site](https://elm-lang.org).
+There's a lot of good Elm material out there, but sadly no obvious order to read it in. So here's a _curated and opinionated_ order, with a quick note on why each thing made the cut. For the actual pitch for the language itself, go to the [official site](https://elm-lang.org).
+
+## Why Elm?
+
+As the box says, Elm is:
+
+> A delightful language
+> for reliable web applications.
+
+Adding to that, I'd argue that learning **Elm is the best and most efficient way to learn and properly grasp real functional programming**.
 
 ## Start here
 
@@ -15,28 +24,20 @@ Where to start depends on what you already know. Pick the line that sounds like 
 - **"Just show me the syntax"** — Ten-minute skim: [Learn Elm in Y Minutes](https://learnxinyminutes.com/elm/). Enough to read Elm code on Github.
 - **"I learn by doing"** — Open [Elm Koans](https://github.com/robertjlooby/elm-koans) and fix failing tests until they pass. Pairs well with the guide.
 
-## The Path™
+I can also heartily recommend **[Beginning Elm](https://elmprogramming.com)** if the above feels overwhelming. This is a slower, more hand-holding free book. Pick this one if the official guide moves too fast for you.
 
-Three stages, roughly. Each link gets a line on what it's for, so you can skip what you don't need.
-
-### 1. Getting started
-
-- **[The Official Guide](https://guide.elm-lang.org)** — Where everyone should start. Short, well-paced, written by the guy who made the language. If you read one thing on this page, read this.
-- **[An Elm Primer for React Developers](https://leanpub.com/elm-for-react-devs/)** _(paid)_ — Full disclosure: I wrote it. It's the most efficient route I know of for a React dev — translates components, state, and effects into their Elm equivalents instead of teaching from zero, _and_ teaches you real functional programming while it's at it.
-- **[Beginning Elm](https://elmprogramming.com)** — A slower, more hand-holding free book. Pick this one if the official guide moves too fast for you.
-
-### 2. Core concepts
+## Core concepts
 
 - **[The Elm Architecture](https://guide.elm-lang.org/architecture/)** — The single most important pattern in Elm. Model, update, view. Every Elm app you write sits on top of it, so don't skip it.
 - **[Elm Patterns](https://sporto.github.io/elm-patterns/)** — A catalogue of common, idiomatic solutions. Browse it once you've shipped something small and started wondering "how do people normally do this?".
-- **[Ensō Elm Playground](https://elm.enso.no)** — An interactive playground that teaches Elm by following the compiler. Hands-on, and yes, built by us at Enso (where I work).
+- **[Ensō Elm Playground](https://elm.enso.no)** — An interactive playground that teaches Elm by following the compiler, "compiler driven development" demonstrated. Hands-on, and yes, built by us at Ensō (where I work).
 
-### 3. Going deeper
+## Going deeper
 
 - **[Elm in Action](https://www.manning.com/books/elm-in-action)** _(paid)_ — Richard Feldman's Manning book. Builds a real app end to end. The most thorough treatment of Elm at scale I know of.
 - **[elm-test](https://github.com/elm-explorations/test)** — Testing in Elm. Pretty painless once the architecture has clicked. (You'll write fewer tests than you're used to. The compiler covers a lot.)
-- **[elm-review](https://elm-review.com)** — Custom static analysis, and one of the best things in the Elm ecosystem. Pull it in earlier than you'd think — small codebases benefit too, and writing your own rules turns out to be genuinely fun. (Jeroen made this, and it shows.)
-- **[elm-ui](https://github.com/mdgriffith/elm-ui)** — Layout as Elm types instead of CSS. Very opinionated. Try it once you're comfortable in the language.
+- **[elm-review](https://elm-review.com)** — Custom static analysis, and one of the best things in the Elm ecosystem. My suggestion is to pull it in earlier than you'd think — small codebases benefit too, and writing your own rules turns out to be genuinely fun.
+- **[elm-ui](https://github.com/mdgriffith/elm-ui)** — Layout as Elm types instead of CSS. Very opinionated. Try it once you're comfortable in the language, especially if CSS was never your thing.
 
 ## Essays worth your time
 
@@ -47,17 +48,17 @@ Three stages, roughly. Each link gets a line on what it's for, so you can skip w
 - **[Elm Core Development](https://elmcraft.org/lore/elm-core-development/)** — Why Elm hasn't shipped a release in a while, and why that's a deliberate choice rather than neglect. Read this before falling down the "is Elm dead?" rabbit hole.
 - **[Single Out Elements Using Phantom Types](https://jfmengels.net/single-out-elements-using-phantom-types/)** — Phantom types sound scary until someone shows you a friendly example. Jeroen does exactly that. (Written by the author of elm-review, so he's done this once or twice.)
 
-## Going further
+## Scaling up
 
 Frameworks built on (or around) Elm. Reach for one of these when you've outgrown a single-page app.
 
 - **[Lamdera](https://lamdera.com)** — Fullstack Elm — and it's _amazing_. One codebase gives you a typed client, a typed server, and a typed wire protocol between them. Migrations are checked by the compiler, deployments are one command, and the whole thing feels like cheating. If you've ever wanted the Elm guarantees to extend across the network boundary, this is it.
-- **[elm-pages](https://elm-pages.com)** — Often pigeonholed as "the Elm static site generator," but it's really a full-stack Elm framework — think Next.js for Elm. Static generation, server-side rendering, and scripts, all with first-class data sources and Elm's guarantees end to end.
-- **[elm-land](https://elm.land)** — A batteries-included framework on top of Elm. File-based routing, layouts, auth scaffolding. The fastest way to go from `npx` to a multi-page app.
+- **[elm-pages](https://elm-pages.com)** — Often pigeonholed as "the Elm static site generator," but it's really a full-stack Elm framework. Think Next.js for Elm (but a lot better, IMHO). Static generation, server-side rendering, and scripts; all with first-class data sources and Elm's guarantees end to end.
+- **[elm-land](https://elm.land)** — A batteries-included framework on top of Elm. File-based routing, layouts, auth scaffolding. The fastest way to go from something small and simple to a multi-page app.
 
 ## Where to ask
 
-Small and genuinely patient community. Beginner questions are fine.
+Elm has a small, passionate and _genuinely patient_ community. Beginner questions are fine.
 
 - **[Elm Discourse](https://discourse.elm-lang.org)** — the main forum
 - **[Elm Slack](https://elm-lang.org/community/slack)** — real-time help
