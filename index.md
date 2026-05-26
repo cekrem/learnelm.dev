@@ -1,7 +1,7 @@
 ---
 title: "learnelm.dev — A sane place to start learning Elm"
 description: "This is a curated, opinionated path to learning Elm. Whether it's your first language or your tenth, you've come to the right place."
-layout: page
+layout: home
 ---
 
 There's a lot of good Elm material out there, but sadly no obvious order to read it in. So here's a _curated and opinionated_ order, with a quick note on why each thing made the cut. For the actual pitch for the language itself, go to the [official site](https://elm-lang.org).
@@ -71,3 +71,5 @@ Want the whole pile? This page is short on purpose. Head over to [awesome-elm](h
 ---
 
 Maintained by [Christian Ekrem @ cekrem.github.io](https://cekrem.github.io), who writes about Elm and a bunch of other things over there.
+
+<iframe style="filter: invert(1) brightness(0.5); height: 14px; width: 300px; overflow-y: clip;" frameborder="0" src="https://livestats.lamdera.app?https://learnelm.dev"></iframe>
