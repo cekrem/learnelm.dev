@@ -3,7 +3,7 @@ layout: page
 permalink: /book
 ---
 
-![Book cover](https://cekrem.github.io/images/book.png){: width="380px" }
+![Book cover](/book.png){: width="380px" }
 
 [<center>Buy eBook</center>](https://leanpub.com/elm-for-react-devs){: .button}
 
