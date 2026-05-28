@@ -20,7 +20,7 @@ Adding to that, I'd argue that learning **Elm is the best and most efficient way
 Where to start depends on what you already know. Pick the line that sounds like you.
 
 - **"I know code, but not FP"** — Start with the [official guide](https://guide.elm-lang.org).
-- **"I'm a React developer"** — Read [An Elm Primer for React Developers](https://leanpub.com/elm-for-react-devs/) _(disclaimer: I wrote this)_. IMHO the most efficient route for React devs: takes the stuff you already know (components, state, effects, the browser domain itself) and shows you the Elm version of each, **teaching real functional programming** in the process.
+- **"I'm a React developer"** — Read [An Elm Primer for React Developers](/book) _(disclaimer: I wrote this)_. IMHO the most efficient route for React devs: takes the stuff you already know (components, state, effects, the browser domain itself) and shows you the Elm version of each, **teaching real functional programming** in the process.
 - **"Just show me the syntax"** — Ten-minute skim: [Learn Elm in Y Minutes](https://learnxinyminutes.com/elm/). Enough to read Elm code on Github.
 - **"I learn by doing"** — Open [Elm Koans](https://github.com/robertjlooby/elm-koans) and fix failing tests until they pass. Pairs well with the guide.
 

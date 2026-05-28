@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /book/
+permalink: /book
 ---
 
-![Book cover](https://cekrem.github.io/images/book.png){: width="300px" }
+![Book cover](https://cekrem.github.io/images/book.png){: width="380px" }
 
 [<center>Buy eBook</center>](https://leanpub.com/elm-for-react-devs){: .button}
 
