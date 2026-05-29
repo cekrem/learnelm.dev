@@ -1,5 +1,7 @@
 ---
-layout: page
+title: An Elm Primer for React Developers [Book] - Christian Ekrem
+description: The Best Way to Learn Real Functional Programming
+layout: default
 permalink: /book
 ---
 
@@ -38,3 +40,9 @@ _Not a React developer? This book assumes you are. If you're coming from somewhe
 > A great read for anyone wanting to dive into functional programming, full of the same easy-to-follow writing and examples readers of Christian's blog will already know and appreciate. Even if you never use Elm in production, _An Elm Primer for React Developers_ will show you the beauty of constraints. Whatever you do next, you'll walk away with a new mental model for writing cleaner functional code — independent of languages or frameworks.
 >
 > — **Teresa Saller**, frontend developer at [Check24](https://check24.de)
+
+---
+
+Christian Ekrem writes about Elm and a bunch of other things over @ [cekrem.github.io](https://cekrem.github.io) too. Check it out!
+
+<iframe style="filter: invert(1) brightness(0.5); height: 14px; width: 300px; overflow-y: clip;" frameborder="0" src="https://livestats.lamdera.app?https://learnelm.dev/book"></iframe>
