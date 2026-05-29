@@ -1,7 +1,7 @@
 ---
 title: An Elm Primer for React Developers [Book] - Christian Ekrem
 description: The Best Way to Learn Real Functional Programming
-image: book-banner.png
+image: book-banner-wide.png
 layout: default
 permalink: /book
 ---
