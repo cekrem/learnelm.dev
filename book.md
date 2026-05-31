@@ -8,9 +8,9 @@ permalink: /book
 
 ![Book cover](/book.png){: width="380px" style="border: thin solid gray" }
 
-[<center>Buy eBook</center>](https://leanpub.com/elm-for-react-devs){: .button}
+[<center>Buy paperback on Amazon</center>](https://amzn.to/3PYkEn4){: .button}
 
-<center><em>Print edition coming soon.</em></center>
+[<center>Buy eBook</center>](https://leanpub.com/elm-for-react-devs){: .button}
 
 If you've ever shipped a runtime error to production despite having TypeScript everywhere, Elm offers a different deal: zero runtime exceptions, guaranteed by the compiler. If it compiles, it works. **This book is a practical guide from React to Elm, written from inside a production codebase with 150,000+ lines of Elm**. You'll see familiar React patterns translated to Elm's approach — state, effects, component architecture — with side-by-side comparisons and honest trade-offs. You'll also meet the pattern that inspired Redux, in its original home.
 
